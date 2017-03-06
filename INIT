@@ -1,0 +1,31 @@
+// 해당경로에서 터미널 명령
+git init    // 깃 시작
+git status  // 깃 상태
+웹에서 remote 복사 후 붙여넣기 // 원격지 주소 찾아감
+
+// 파일추가
+git add .   // 관리대상 등록
+git commit -m 'test'      // test commit
+git push -u origin master // push
+
+// 첫 계정등록
+git config --global use.email "메일"
+git config --global use.name "아이디"
+
+// 브런치 생성
+git checkout -b beta
+git branch
+
+// 브런치간 머쥐
+git checkout master
+git branch
+git merge beta
+
+//
+git
+
+//
+git
+
+//
+git
